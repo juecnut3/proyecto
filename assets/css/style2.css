@@ -1,0 +1,129 @@
+*{
+    font-family: Arial;
+    }
+    body{
+      padding: 0px;
+      margin: 0px;
+    }
+    header{
+      background: white ;
+      padding: 10px;
+      text-align: center;
+      font-size: 0px;
+      font-display: bold;
+    }
+    .menu{
+      margin-left: 40px;
+      margin-right: 40px;
+      padding: 10px;
+      columns: 1/4 ;
+      background:rgb(91, 91, 172);
+    }
+    .menu a{
+      text-decoration: none;
+      color: white;
+      background: rgb(54, 54, 105)rgb(91, 91, 172);
+      padding: 10px;
+    }
+    .menu a:hover{
+      background: rgb(44, 44, 121);
+    }
+    }
+    footer{
+      background: rgb(91, 91, 172);
+      text-align: center;
+      padding: 5px;
+    }
+    footer div{
+      background: rgb(91, 91, 172);
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      text-align: right;
+      padding: 5px;
+    }
+    footer div .texto_telefono{
+      font-size: 25px;
+    }
+    footer div img{
+      height: 20px;
+      width: 20px;
+    }
+    * {box-sizing:border-box}
+
+    
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  font-size: 30px;
+text-align: center;
+  float: left;
+  width: 25%;
+}
+.row div{
+  text-decoration: none;
+}
+.column div span{
+  text-decoration: line-through;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.titulo1{
+  padding: 40px;
+  font-size: 50px;
+}
+section img{
+  padding: 50px;
+}
+section div img{
+  padding-left: 150px;
+}
+section .logo1{
+  padding-left: 350px;
+  padding-right:  40px;
+}
+section div{
+  padding-top: -10px;
+  padding-left: 40PX;
+  padding-right: 40px;
+}
+.menu a img{
+  width: 20px; height: 20px;
+
+}
+section p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
